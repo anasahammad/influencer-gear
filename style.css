@@ -86,11 +86,13 @@ button{
     font-weight: 700;
     margin-top: 16px;
     border: none;
+    cursor: pointer;
 }
 .icon-section{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     /* gap: 60px; */
 }
 .icon-section img{
@@ -134,6 +136,7 @@ button{
     text-align: right;
     color: #E02C6DDE;
     font-weight: 700;
+    cursor: pointer;
 }
 
 /* feature section style */
@@ -226,14 +229,14 @@ footer{
         font-weight: 700;    
     }
     .icon-section{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        margin: 0 0;
+      gap: 30px;
+      flex-wrap: wrap;
+        
         
     }
     .icon-section img{
         margin-left: 0px;
-        width: 33px;
+        width: 50px;
         height: 18px;
         
     }
